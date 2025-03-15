@@ -5,7 +5,7 @@
 	"FriendlyName": "MyExtender",
 	"Description": "",
 	"Category": "Other",
-	"CreatedBy": "Neil Wang",
+	"CreatedBy": "Aiguo Wang",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -19,6 +19,12 @@
 			"Name": "MyExtender",
 			"Type": "Editor",
 			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	]
 }

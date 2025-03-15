@@ -26,7 +26,9 @@ public class MyExtender : ModuleRules
 			new string[]
 			{
 				"Core",
-				// ... add other public dependencies that you statically link with here ...
+				"CoreUObject",
+				"Slate",
+				"SlateCore"
 			}
 			);
 			
@@ -34,17 +36,13 @@ public class MyExtender : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"CoreUObject",
 				"Engine",
-				"Slate",
-				"SlateCore",
-				"UMG",
-				/*"UMGEditor",
-				"UnrealEd",*/
-				"Blutility", 
-				"MeshUtilities",
-				"EditorScriptingUtilities"
-				// ... add private dependencies that you statically link with here ...	
+				"InputCore",
+				"RenderCore",
+				"UnrealEd",
+				"Blutility",
+				"EditorScriptingUtilities",
+				"UMG"
 			}
 			);
 		

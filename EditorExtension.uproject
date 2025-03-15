@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.25",
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -15,7 +15,7 @@
 	],
 	"Plugins": [
 		{
-			"Name": "HoudiniEngine",
+			"Name": "MyExtender",
 			"Enabled": true
 		}
 	]
