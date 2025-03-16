@@ -13,5 +13,5 @@ UE4 Editor extension examples
 3. The output static mesh will be generated in **Content/Meshes/**.
 ![03](./_img/screenshot_03.png)
 
-4. Result:
+4. Result:  
 ![04](./_img/screenshot_04.png)
