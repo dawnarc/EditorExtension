@@ -14,4 +14,4 @@ UE4 Editor extension examples
 ![03](./_img/screenshot_03.png)
 
 4. Result:
-![01](./_img/screenshot_04.png)
+![04](./_img/screenshot_04.png)
